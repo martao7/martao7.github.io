@@ -1,0 +1,83 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Courier New', monospace;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 20px;
+  background-color: #e38f71;
+  opacity: 4.0;
+  background-image: linear-gradient(to right, #f2dab1, #f2dab1 2px, #e38f71 2px, #e38f71 );
+  background-size: 4px 100%;
+
+}
+
+.header {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  background: rgb(233, 100, 105);
+}
+
+.leftcolumn {
+  float: left;
+  width: 70%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 30%;
+  padding-left: 20px;
+}
+
+.note {
+  background-color: rgb(227, 222, 140);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: rgba(255, 120, 120, 0.373);
+  margin-top: 20px;
+}
+
+h1 {
+    
+  background: linear-gradient(45deg, rgb(169, 136, 115), rgb(94, 32, 3)); 
+  text-align: center;
+  font-family: 'Courier New', monospace;
+  
+  font-size: 90px;
+  color: rgb(206, 206, 119);
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  
+  padding: 10px;
+  margin: 0;
+  list-style: none;
+}
+
+nav ul a {
+  color: rgb(28, 28, 26);
+  text-decoration: none;
+  text-decoration-style: dotted;
+}
+
+nav ul a:hover {
+  color: #c5bc68;
+  transition: 0.3s;
+}
+
+@media screen and (max-width: 1200px)  {
+  .leftcolumn, .rightcolumn { 
+    width: 100%;
+    padding: 0;
+  }
+}
